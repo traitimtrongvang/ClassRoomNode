@@ -1,10 +1,10 @@
-﻿using Application.Domain.ValueObjects;
+﻿using Application.Domain.ValueObjects.Commons;
 
 namespace Application.Domain.Entities;
 
-public abstract class BaseEntity<TId> where TId : BaseId, new()
+public abstract class BaseEntity<TId> where TId : BaseId
 {
-    public TId Id { get; init; } = new();
+    public TId Id { get; init; } = (TId)Activator.CreateInstance(typeof(TId), new object[] { Guid.NewGuid() })!;
 
     public DateTime CreatedAt { get; init; } = DateTime.Now;
 

@@ -13,4 +13,17 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Application.csproj" />
+      <ProjectReference Include="..\Drivens\PrimaryDbPostgreSql\PrimaryDbPostgreSql.csproj" />
+      <ProjectReference Include="..\Drivings\RestfulApi\RestfulApi.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
 </Project>

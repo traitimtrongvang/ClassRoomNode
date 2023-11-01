@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EfCoreDialogsState">
+    <option name="keyValueStorage">
+      <map>
+        <entry key="Common:5396bbf8-11d1-4083-887d-7a2ca98f1c20:dbContext" value="PrimaryDbPostgreSql.PrimaryDbPostgreSqlContext" />
+        <entry key="Common:buildConfiguration" value="Debug" />
+        <entry key="Common:noBuild" value="false" />
+        <entry key="Common:outputFolder" value="Migrations" />
+        <entry key="Common:useDefaultConnection" value="true" />
+      </map>
+    </option>
+  </component>
+</project>

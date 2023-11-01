@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Drivings", "Drivings", "{31
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Drivens", "Drivens", "{CC6E531F-1F2D-4746-8A82-D662770AB0FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryDbPostgreSql", "Drivens\PrimaryDbPostgreSql\PrimaryDbPostgreSql.csproj", "{5396BBF8-11D1-4083-887D-7A2CA98F1C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulApi", "Drivings\RestfulApi\RestfulApi.csproj", "{2239B5CE-FAC5-4180-828B-9E20948612A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +26,17 @@ Global
 		{55F4D21D-1EC3-4ED3-9874-4C5BFEC6F5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F4D21D-1EC3-4ED3-9874-4C5BFEC6F5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F4D21D-1EC3-4ED3-9874-4C5BFEC6F5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5396BBF8-11D1-4083-887D-7A2CA98F1C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5396BBF8-11D1-4083-887D-7A2CA98F1C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5396BBF8-11D1-4083-887D-7A2CA98F1C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5396BBF8-11D1-4083-887D-7A2CA98F1C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2239B5CE-FAC5-4180-828B-9E20948612A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2239B5CE-FAC5-4180-828B-9E20948612A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2239B5CE-FAC5-4180-828B-9E20948612A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2239B5CE-FAC5-4180-828B-9E20948612A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5396BBF8-11D1-4083-887D-7A2CA98F1C20} = {CC6E531F-1F2D-4746-8A82-D662770AB0FD}
+		{2239B5CE-FAC5-4180-828B-9E20948612A1} = {310B35CB-BA8A-4799-8378-52264235F300}
 	EndGlobalSection
 EndGlobal
